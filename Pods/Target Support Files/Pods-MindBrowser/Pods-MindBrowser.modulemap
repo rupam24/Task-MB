@@ -1,0 +1,6 @@
+framework module Pods_MindBrowser {
+  umbrella header "Pods-MindBrowser-umbrella.h"
+
+  export *
+  module * { export * }
+}

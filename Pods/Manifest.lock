@@ -1,0 +1,26 @@
+PODS:
+  - SDWebImage (5.1.1):
+    - SDWebImage/Core (= 5.1.1)
+  - SDWebImage/Core (5.1.1)
+  - TwitterCore (3.2.0)
+  - TwitterKit (3.4.2):
+    - TwitterCore (>= 3.2.0)
+
+DEPENDENCIES:
+  - SDWebImage (~> 5.0)
+  - TwitterKit
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - SDWebImage
+    - TwitterCore
+    - TwitterKit
+
+SPEC CHECKSUMS:
+  SDWebImage: 96d7f03415ccb28d299d765f93557ff8a617abd8
+  TwitterCore: 8cbc9ad34d91c63a0035ea05bfbfc0d7ca72a28c
+  TwitterKit: 5e4f41d70b9abdb41df5467f52d7aa2c0fd26ebb
+
+PODFILE CHECKSUM: f399ea91f5caa6f44288628855928f5ed0cb75c5
+
+COCOAPODS: 1.6.1

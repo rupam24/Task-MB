@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1855A1D323305DF600E45C37 /* ImageProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1855A1D223305DF600E45C37 /* ImageProfileViewController.swift */; };
 		1884B3C0232E1D250097FD16 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1884B3BF232E1D250097FD16 /* AppDelegate.swift */; };
 		1884B3C2232E1D250097FD16 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1884B3C1232E1D250097FD16 /* ViewController.swift */; };
 		1884B3C5232E1D250097FD16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1884B3C3232E1D250097FD16 /* Main.storyboard */; };
@@ -14,6 +15,12 @@
 		1884B3CA232E1D2E0097FD16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1884B3C8232E1D2E0097FD16 /* LaunchScreen.storyboard */; };
 		1884B3D5232E1D2E0097FD16 /* MindBrowserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1884B3D4232E1D2E0097FD16 /* MindBrowserTests.swift */; };
 		1884B3E0232E1D2E0097FD16 /* MindBrowserUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1884B3DF232E1D2E0097FD16 /* MindBrowserUITests.swift */; };
+		1884B3EF232E25A10097FD16 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1884B3EE232E25A10097FD16 /* HomeViewController.swift */; };
+		1884B3F1232E31230097FD16 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1884B3F0232E31230097FD16 /* MainViewController.swift */; };
+		1884B3F5232E9A550097FD16 /* FriendListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1884B3F4232E9A550097FD16 /* FriendListViewController.swift */; };
+		1884B3F7232E9A700097FD16 /* FriendTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1884B3F6232E9A700097FD16 /* FriendTableViewCell.swift */; };
+		1884B3FB232EA3260097FD16 /* friendList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1884B3FA232EA3260097FD16 /* friendList.swift */; };
+		4EEA9B1EF066DA0FA1B17796 /* Pods_MindBrowser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5AA10070DC649B5047A43F0 /* Pods_MindBrowser.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1855A1D223305DF600E45C37 /* ImageProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageProfileViewController.swift; sourceTree = "<group>"; };
 		1884B3BC232E1D240097FD16 /* MindBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MindBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1884B3BF232E1D250097FD16 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1884B3C1232E1D250097FD16 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +55,14 @@
 		1884B3DB232E1D2E0097FD16 /* MindBrowserUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MindBrowserUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1884B3DF232E1D2E0097FD16 /* MindBrowserUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MindBrowserUITests.swift; sourceTree = "<group>"; };
 		1884B3E1232E1D2E0097FD16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1884B3EE232E25A10097FD16 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		1884B3F0232E31230097FD16 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		1884B3F4232E9A550097FD16 /* FriendListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendListViewController.swift; sourceTree = "<group>"; };
+		1884B3F6232E9A700097FD16 /* FriendTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendTableViewCell.swift; sourceTree = "<group>"; };
+		1884B3FA232EA3260097FD16 /* friendList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = friendList.swift; sourceTree = "<group>"; };
+		C5AD0647C3DE230DAA0F2F33 /* Pods-MindBrowser.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MindBrowser.debug.xcconfig"; path = "Target Support Files/Pods-MindBrowser/Pods-MindBrowser.debug.xcconfig"; sourceTree = "<group>"; };
+		D5AA10070DC649B5047A43F0 /* Pods_MindBrowser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MindBrowser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F99690437D563B1161564CD5 /* Pods-MindBrowser.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MindBrowser.release.xcconfig"; path = "Target Support Files/Pods-MindBrowser/Pods-MindBrowser.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4EEA9B1EF066DA0FA1B17796 /* Pods_MindBrowser.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +98,8 @@
 				1884B3D3232E1D2E0097FD16 /* MindBrowserTests */,
 				1884B3DE232E1D2E0097FD16 /* MindBrowserUITests */,
 				1884B3BD232E1D240097FD16 /* Products */,
+				FDE1450B30C5A07B33BAACB6 /* Pods */,
+				A65FB41C21C9BAF2C9F4DB2D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,8 +116,11 @@
 		1884B3BE232E1D240097FD16 /* MindBrowser */ = {
 			isa = PBXGroup;
 			children = (
+				1884B3F3232E9A2C0097FD16 /* FriendList */,
+				1884B3ED232E254F0097FD16 /* HomeViewController */,
 				1884B3BF232E1D250097FD16 /* AppDelegate.swift */,
 				1884B3C1232E1D250097FD16 /* ViewController.swift */,
+				1884B3F0232E31230097FD16 /* MainViewController.swift */,
 				1884B3C3232E1D250097FD16 /* Main.storyboard */,
 				1884B3C6232E1D2E0097FD16 /* Assets.xcassets */,
 				1884B3C8232E1D2E0097FD16 /* LaunchScreen.storyboard */,
@@ -125,6 +147,42 @@
 			path = MindBrowserUITests;
 			sourceTree = "<group>";
 		};
+		1884B3ED232E254F0097FD16 /* HomeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1884B3EE232E25A10097FD16 /* HomeViewController.swift */,
+				1855A1D223305DF600E45C37 /* ImageProfileViewController.swift */,
+			);
+			path = HomeViewController;
+			sourceTree = "<group>";
+		};
+		1884B3F3232E9A2C0097FD16 /* FriendList */ = {
+			isa = PBXGroup;
+			children = (
+				1884B3F4232E9A550097FD16 /* FriendListViewController.swift */,
+				1884B3F6232E9A700097FD16 /* FriendTableViewCell.swift */,
+				1884B3FA232EA3260097FD16 /* friendList.swift */,
+			);
+			path = FriendList;
+			sourceTree = "<group>";
+		};
+		A65FB41C21C9BAF2C9F4DB2D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D5AA10070DC649B5047A43F0 /* Pods_MindBrowser.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FDE1450B30C5A07B33BAACB6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C5AD0647C3DE230DAA0F2F33 /* Pods-MindBrowser.debug.xcconfig */,
+				F99690437D563B1161564CD5 /* Pods-MindBrowser.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +190,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1884B3E4232E1D2E0097FD16 /* Build configuration list for PBXNativeTarget "MindBrowser" */;
 			buildPhases = (
+				A18F3CDF83596A5D14814EE1 /* [CP] Check Pods Manifest.lock */,
 				1884B3B8232E1D240097FD16 /* Sources */,
 				1884B3B9232E1D240097FD16 /* Frameworks */,
 				1884B3BA232E1D240097FD16 /* Resources */,
+				F71FB1AF36DC31F26E7B9C2C /* [CP] Embed Pods Frameworks */,
+				A4B40ED2137D63924B9BAF56 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -251,13 +312,92 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A18F3CDF83596A5D14814EE1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MindBrowser-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A4B40ED2137D63924B9BAF56 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MindBrowser/Pods-MindBrowser-resources.sh",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework/TwitterKitResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TwitterKitResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MindBrowser/Pods-MindBrowser-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F71FB1AF36DC31F26E7B9C2C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MindBrowser/Pods-MindBrowser-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${PODS_ROOT}/TwitterCore/iOS/TwitterCore.framework",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TwitterCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TwitterKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MindBrowser/Pods-MindBrowser-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1884B3B8232E1D240097FD16 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1884B3F5232E9A550097FD16 /* FriendListViewController.swift in Sources */,
 				1884B3C2232E1D250097FD16 /* ViewController.swift in Sources */,
 				1884B3C0232E1D250097FD16 /* AppDelegate.swift in Sources */,
+				1884B3F7232E9A700097FD16 /* FriendTableViewCell.swift in Sources */,
+				1855A1D323305DF600E45C37 /* ImageProfileViewController.swift in Sources */,
+				1884B3EF232E25A10097FD16 /* HomeViewController.swift in Sources */,
+				1884B3F1232E31230097FD16 /* MainViewController.swift in Sources */,
+				1884B3FB232EA3260097FD16 /* friendList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,6 +570,7 @@
 		};
 		1884B3E5232E1D2E0097FD16 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5AD0647C3DE230DAA0F2F33 /* Pods-MindBrowser.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -448,6 +589,7 @@
 		};
 		1884B3E6232E1D2E0097FD16 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F99690437D563B1161564CD5 /* Pods-MindBrowser.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
